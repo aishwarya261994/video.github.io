@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <style>
+.v1{
+    z-index: -999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+}
+body{
+   
+    background-size: cover;
+   
+
+}
+h1{
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    margin-top:5%;
+    opacity: 0.75;
+}
+fieldset{
+    margin-top: 2%;
+    border: 2px solid white;
+    margin-left: 40%;
+    height: 30%;
+    width: max-content;
+    opacity: 0.5;
+}
+
+button{
+    background: transparent;
+    align-self: center;
+    width: max-content;
+    height:max-content;
+    border: 2px  solid #0f93b4;
+}
+        </style>
+    </head>
+    <body>
+<div>
+    <h1>Welcome to Sea World!!!</h1>
+    <video autoplay loop muted class="v1">
+        <source src="beach.mp4" type="video/mp4">
+    </video>
+    <form>
+        
+        <fieldset style="background-color: white; color: #0f93b4; width:max-content">
+            <center><legend>LOGIN TO PROCEED</legend></center><br><br>
+            <input type="text" placeholder="Enter Name"><br><br>
+            <input type="text" placeholder="Enter password"><br><br>
+            <button style="background-color: #0f93b4; color: white;">Login</button>
+            <button style="background-color: #0f93b4; color: white;">Register</button>
+        </fieldset>
+    </form>
+</div>
+    </body>
+</html>
